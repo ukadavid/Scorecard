@@ -1,0 +1,33 @@
+#container {
+  padding: 2rem 4rem;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#resetBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"]{
+  padding: 5px;
+  margin: 0;
+  border: 0;
+}
+
+input[type="text"]:focus{
+ outline: none;
+}
